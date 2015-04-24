@@ -10,24 +10,33 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Life_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="center" text="张旭运行耗时（秒）" id="9Cq-KB-hEn"/>
-                        <label height="42" alignment="center" text="100" id="A6F-Ge-ZNx">
-                            <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            <fontDescription key="font" type="system" pointSize="22"/>
+                        <label alignment="center" verticalAlignment="center" text="100" id="A6F-Ge-ZNx">
+                            <color key="textColor" red="0.82352941176470584" green="0.84705882352941175" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="system" weight="heavy" pointSize="26"/>
                         </label>
+                        <slider width="1" alignment="center" verticalAlignment="bottom" continuous="YES" maximum="9" steps="9" id="FXo-3L-ziJ">
+                            <color key="color" red="0.82352941176470584" green="0.84705882352941175" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </slider>
                         <button width="1" alignment="center" verticalAlignment="bottom" title="重启" id="rys-Xo-q20">
+                            <color key="backgroundColor" red="0.82352941176470584" green="0.84705882352941175" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
                             <connections>
                                 <action selector="buttonRebootClicked" destination="AgC-eL-Hgc" id="k79-Zw-lhf"/>
                             </connections>
                         </button>
                         <button width="1" alignment="center" verticalAlignment="bottom" title="关机" id="GH3-dV-PqQ">
+                            <color key="backgroundColor" red="0.82352941176470584" green="0.84705882352941175" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" type="boldSystem" pointSize="15"/>
                             <connections>
                                 <action selector="buttonShutdownClicked" destination="AgC-eL-Hgc" id="gfe-wF-2wU"/>
                             </connections>
                         </button>
+                        <label alignment="center" verticalAlignment="bottom" id="TTQ-Ol-atz"/>
                     </items>
+                    <color key="backgroundColor" red="0.2196078431372549" green="0.58823529411764708" blue="0.72941176470588232" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <connections>
                         <outlet property="labelTime" destination="A6F-Ge-ZNx" id="Xxc-2T-dri"/>
+                        <outlet property="sliderStep" destination="FXo-3L-ziJ" id="R4o-Ny-O1m"/>
                     </connections>
                 </controller>
             </objects>

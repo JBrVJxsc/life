@@ -14,8 +14,11 @@ class InterfaceController: WKInterfaceController {
 
     @IBOutlet weak var labelTime: WKInterfaceLabel!
     
+    @IBOutlet weak var sliderStep: WKInterfaceSlider!
+    
     var time: Int!
     var timer: NSTimer!
+    var isReverse: Bool = false
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
@@ -42,13 +45,24 @@ class InterfaceController: WKInterfaceController {
         let birthDay = NSCalendar.currentCalendar().dateFromComponents(birthDayComponents)
         let now = NSDate()
         time = Int(NSDate.timeIntervalSinceDate(now)(birthDay!))
-        time = time * 10
         timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("fire"), userInfo: nil, repeats: true)
         timer.fire()
     }
     
     func fire() {
         time = time + 1
+        let remain = time % 10
+        
+        if (isReverse) {
+            sliderStep.setValue(Float(9 - remain))
+        } else {
+            sliderStep.setValue(Float(remain))
+        }
+        
+        if (remain == 9) {
+            isReverse = !isReverse
+        }
+        
         labelTime.setText("\(time)")
     }
     
