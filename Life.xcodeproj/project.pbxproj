@@ -1,0 +1,672 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		958AE7F81AE9C33D00D61093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958AE7F71AE9C33D00D61093 /* AppDelegate.swift */; };
+		958AE7FA1AE9C33D00D61093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958AE7F91AE9C33D00D61093 /* ViewController.swift */; };
+		958AE7FD1AE9C33D00D61093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958AE7FB1AE9C33D00D61093 /* Main.storyboard */; };
+		958AE7FF1AE9C33D00D61093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958AE7FE1AE9C33D00D61093 /* Images.xcassets */; };
+		958AE8021AE9C33D00D61093 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 958AE8001AE9C33D00D61093 /* LaunchScreen.xib */; };
+		958AE80E1AE9C33D00D61093 /* LifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958AE80D1AE9C33D00D61093 /* LifeTests.swift */; };
+		958AE8201AE9C34A00D61093 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958AE81F1AE9C34A00D61093 /* InterfaceController.swift */; };
+		958AE8221AE9C34A00D61093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958AE8211AE9C34A00D61093 /* Images.xcassets */; };
+		958AE8261AE9C34A00D61093 /* Life WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 958AE8251AE9C34A00D61093 /* Life WatchKit App.app */; };
+		958AE82E1AE9C34A00D61093 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 958AE82C1AE9C34A00D61093 /* Interface.storyboard */; };
+		958AE8301AE9C34A00D61093 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 958AE82F1AE9C34A00D61093 /* Images.xcassets */; };
+		958AE8331AE9C34B00D61093 /* Life WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 958AE81B1AE9C34A00D61093 /* Life WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		958AE8081AE9C33D00D61093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958AE7EA1AE9C33D00D61093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958AE7F11AE9C33D00D61093;
+			remoteInfo = Life;
+		};
+		958AE8271AE9C34A00D61093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958AE7EA1AE9C33D00D61093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958AE8241AE9C34A00D61093;
+			remoteInfo = "Life WatchKit App";
+		};
+		958AE8311AE9C34B00D61093 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 958AE7EA1AE9C33D00D61093 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 958AE81A1AE9C34A00D61093;
+			remoteInfo = "Life WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		958AE83A1AE9C34B00D61093 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				958AE8331AE9C34B00D61093 /* Life WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		958AE7F21AE9C33D00D61093 /* Life.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Life.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		958AE7F61AE9C33D00D61093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958AE7F71AE9C33D00D61093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		958AE7F91AE9C33D00D61093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		958AE7FC1AE9C33D00D61093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		958AE7FE1AE9C33D00D61093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		958AE8011AE9C33D00D61093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		958AE8071AE9C33D00D61093 /* LifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		958AE80C1AE9C33D00D61093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958AE80D1AE9C33D00D61093 /* LifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeTests.swift; sourceTree = "<group>"; };
+		958AE81B1AE9C34A00D61093 /* Life WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Life WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958AE81E1AE9C34A00D61093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958AE81F1AE9C34A00D61093 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		958AE8211AE9C34A00D61093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		958AE8251AE9C34A00D61093 /* Life WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Life WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		958AE82B1AE9C34A00D61093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		958AE82D1AE9C34A00D61093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		958AE82F1AE9C34A00D61093 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		958AE7EF1AE9C33D00D61093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958AE8041AE9C33D00D61093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958AE8181AE9C34A00D61093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		958AE7E91AE9C33D00D61093 = {
+			isa = PBXGroup;
+			children = (
+				958AE7F41AE9C33D00D61093 /* Life */,
+				958AE80A1AE9C33D00D61093 /* LifeTests */,
+				958AE81C1AE9C34A00D61093 /* Life WatchKit Extension */,
+				958AE8291AE9C34A00D61093 /* Life WatchKit App */,
+				958AE7F31AE9C33D00D61093 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		958AE7F31AE9C33D00D61093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				958AE7F21AE9C33D00D61093 /* Life.app */,
+				958AE8071AE9C33D00D61093 /* LifeTests.xctest */,
+				958AE81B1AE9C34A00D61093 /* Life WatchKit Extension.appex */,
+				958AE8251AE9C34A00D61093 /* Life WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		958AE7F41AE9C33D00D61093 /* Life */ = {
+			isa = PBXGroup;
+			children = (
+				958AE7F71AE9C33D00D61093 /* AppDelegate.swift */,
+				958AE7F91AE9C33D00D61093 /* ViewController.swift */,
+				958AE7FB1AE9C33D00D61093 /* Main.storyboard */,
+				958AE7FE1AE9C33D00D61093 /* Images.xcassets */,
+				958AE8001AE9C33D00D61093 /* LaunchScreen.xib */,
+				958AE7F51AE9C33D00D61093 /* Supporting Files */,
+			);
+			path = Life;
+			sourceTree = "<group>";
+		};
+		958AE7F51AE9C33D00D61093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				958AE7F61AE9C33D00D61093 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		958AE80A1AE9C33D00D61093 /* LifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				958AE80D1AE9C33D00D61093 /* LifeTests.swift */,
+				958AE80B1AE9C33D00D61093 /* Supporting Files */,
+			);
+			path = LifeTests;
+			sourceTree = "<group>";
+		};
+		958AE80B1AE9C33D00D61093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				958AE80C1AE9C33D00D61093 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		958AE81C1AE9C34A00D61093 /* Life WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				958AE81F1AE9C34A00D61093 /* InterfaceController.swift */,
+				958AE8211AE9C34A00D61093 /* Images.xcassets */,
+				958AE81D1AE9C34A00D61093 /* Supporting Files */,
+			);
+			path = "Life WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		958AE81D1AE9C34A00D61093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				958AE81E1AE9C34A00D61093 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		958AE8291AE9C34A00D61093 /* Life WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				958AE82C1AE9C34A00D61093 /* Interface.storyboard */,
+				958AE82F1AE9C34A00D61093 /* Images.xcassets */,
+				958AE82A1AE9C34A00D61093 /* Supporting Files */,
+			);
+			path = "Life WatchKit App";
+			sourceTree = "<group>";
+		};
+		958AE82A1AE9C34A00D61093 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				958AE82B1AE9C34A00D61093 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		958AE7F11AE9C33D00D61093 /* Life */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958AE8111AE9C33D00D61093 /* Build configuration list for PBXNativeTarget "Life" */;
+			buildPhases = (
+				958AE7EE1AE9C33D00D61093 /* Sources */,
+				958AE7EF1AE9C33D00D61093 /* Frameworks */,
+				958AE7F01AE9C33D00D61093 /* Resources */,
+				958AE83A1AE9C34B00D61093 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958AE8321AE9C34B00D61093 /* PBXTargetDependency */,
+			);
+			name = Life;
+			productName = Life;
+			productReference = 958AE7F21AE9C33D00D61093 /* Life.app */;
+			productType = "com.apple.product-type.application";
+		};
+		958AE8061AE9C33D00D61093 /* LifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958AE8141AE9C33D00D61093 /* Build configuration list for PBXNativeTarget "LifeTests" */;
+			buildPhases = (
+				958AE8031AE9C33D00D61093 /* Sources */,
+				958AE8041AE9C33D00D61093 /* Frameworks */,
+				958AE8051AE9C33D00D61093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958AE8091AE9C33D00D61093 /* PBXTargetDependency */,
+			);
+			name = LifeTests;
+			productName = LifeTests;
+			productReference = 958AE8071AE9C33D00D61093 /* LifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		958AE81A1AE9C34A00D61093 /* Life WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958AE8371AE9C34B00D61093 /* Build configuration list for PBXNativeTarget "Life WatchKit Extension" */;
+			buildPhases = (
+				958AE8171AE9C34A00D61093 /* Sources */,
+				958AE8181AE9C34A00D61093 /* Frameworks */,
+				958AE8191AE9C34A00D61093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				958AE8281AE9C34A00D61093 /* PBXTargetDependency */,
+			);
+			name = "Life WatchKit Extension";
+			productName = "Life WatchKit Extension";
+			productReference = 958AE81B1AE9C34A00D61093 /* Life WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		958AE8241AE9C34A00D61093 /* Life WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 958AE8341AE9C34B00D61093 /* Build configuration list for PBXNativeTarget "Life WatchKit App" */;
+			buildPhases = (
+				958AE8231AE9C34A00D61093 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Life WatchKit App";
+			productName = "Life WatchKit App";
+			productReference = 958AE8251AE9C34A00D61093 /* Life WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		958AE7EA1AE9C33D00D61093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Xu ZHANG";
+				TargetAttributes = {
+					958AE7F11AE9C33D00D61093 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					958AE8061AE9C33D00D61093 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 958AE7F11AE9C33D00D61093;
+					};
+					958AE81A1AE9C34A00D61093 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					958AE8241AE9C34A00D61093 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 958AE7ED1AE9C33D00D61093 /* Build configuration list for PBXProject "Life" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 958AE7E91AE9C33D00D61093;
+			productRefGroup = 958AE7F31AE9C33D00D61093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				958AE7F11AE9C33D00D61093 /* Life */,
+				958AE8061AE9C33D00D61093 /* LifeTests */,
+				958AE81A1AE9C34A00D61093 /* Life WatchKit Extension */,
+				958AE8241AE9C34A00D61093 /* Life WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		958AE7F01AE9C33D00D61093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958AE7FD1AE9C33D00D61093 /* Main.storyboard in Resources */,
+				958AE8021AE9C33D00D61093 /* LaunchScreen.xib in Resources */,
+				958AE7FF1AE9C33D00D61093 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958AE8051AE9C33D00D61093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958AE8191AE9C34A00D61093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958AE8261AE9C34A00D61093 /* Life WatchKit App.app in Resources */,
+				958AE8221AE9C34A00D61093 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958AE8231AE9C34A00D61093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958AE82E1AE9C34A00D61093 /* Interface.storyboard in Resources */,
+				958AE8301AE9C34A00D61093 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		958AE7EE1AE9C33D00D61093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958AE7FA1AE9C33D00D61093 /* ViewController.swift in Sources */,
+				958AE7F81AE9C33D00D61093 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958AE8031AE9C33D00D61093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958AE80E1AE9C33D00D61093 /* LifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		958AE8171AE9C34A00D61093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958AE8201AE9C34A00D61093 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		958AE8091AE9C33D00D61093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958AE7F11AE9C33D00D61093 /* Life */;
+			targetProxy = 958AE8081AE9C33D00D61093 /* PBXContainerItemProxy */;
+		};
+		958AE8281AE9C34A00D61093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958AE8241AE9C34A00D61093 /* Life WatchKit App */;
+			targetProxy = 958AE8271AE9C34A00D61093 /* PBXContainerItemProxy */;
+		};
+		958AE8321AE9C34B00D61093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 958AE81A1AE9C34A00D61093 /* Life WatchKit Extension */;
+			targetProxy = 958AE8311AE9C34B00D61093 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		958AE7FB1AE9C33D00D61093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958AE7FC1AE9C33D00D61093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		958AE8001AE9C33D00D61093 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958AE8011AE9C33D00D61093 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		958AE82C1AE9C34A00D61093 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				958AE82D1AE9C34A00D61093 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		958AE80F1AE9C33D00D61093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		958AE8101AE9C33D00D61093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		958AE8121AE9C33D00D61093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Life/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		958AE8131AE9C33D00D61093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Life/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		958AE8151AE9C33D00D61093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life.app/Life";
+			};
+			name = Debug;
+		};
+		958AE8161AE9C33D00D61093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Life.app/Life";
+			};
+			name = Release;
+		};
+		958AE8351AE9C34B00D61093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Life_WatchKit_Extension;
+				INFOPLIST_FILE = "Life WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		958AE8361AE9C34B00D61093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = Life_WatchKit_Extension;
+				INFOPLIST_FILE = "Life WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		958AE8381AE9C34B00D61093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Life WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		958AE8391AE9C34B00D61093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Life WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		958AE7ED1AE9C33D00D61093 /* Build configuration list for PBXProject "Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958AE80F1AE9C33D00D61093 /* Debug */,
+				958AE8101AE9C33D00D61093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		958AE8111AE9C33D00D61093 /* Build configuration list for PBXNativeTarget "Life" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958AE8121AE9C33D00D61093 /* Debug */,
+				958AE8131AE9C33D00D61093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		958AE8141AE9C33D00D61093 /* Build configuration list for PBXNativeTarget "LifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958AE8151AE9C33D00D61093 /* Debug */,
+				958AE8161AE9C33D00D61093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		958AE8341AE9C34B00D61093 /* Build configuration list for PBXNativeTarget "Life WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958AE8351AE9C34B00D61093 /* Debug */,
+				958AE8361AE9C34B00D61093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		958AE8371AE9C34B00D61093 /* Build configuration list for PBXNativeTarget "Life WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				958AE8381AE9C34B00D61093 /* Debug */,
+				958AE8391AE9C34B00D61093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 958AE7EA1AE9C33D00D61093 /* Project object */;
+}
