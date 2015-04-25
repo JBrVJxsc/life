@@ -35,6 +35,7 @@ class InterfaceController: WKInterfaceController {
     override func didDeactivate() {
         // This method is called when watch view controller is no longer visible
         super.didDeactivate()
+        invalidateTimer()
     }
     
     private func initTimers() {
@@ -47,6 +48,10 @@ class InterfaceController: WKInterfaceController {
         time = Int(NSDate.timeIntervalSinceDate(now)(birthDay!))
         timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("fire"), userInfo: nil, repeats: true)
         timer.fire()
+    }
+    
+    private func invalidateTimer() {
+        timer.invalidate()
     }
     
     func fire() {
